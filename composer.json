@@ -1,0 +1,22 @@
+{
+    "name": "mehrazmorshed/testing-phpcs",
+    "description": "Testing PHP Coding Standard",
+    "type": "project",
+    "require": {
+      "php": "^7.4 || ^8.0"
+    },
+    "require-dev": {
+      "squizlabs/php_codesniffer": "^3.6"
+    },
+    "autoload": {
+      "psr-4": {
+        "MehrazMorshed\\TestingPHPCS\\": "src/"
+      }
+    },
+    "scripts": {
+      "post-install-cmd": [
+        "php vendor/bin/phpcs --config-set installed_paths ./vendor/squizlabs/php_codesniffer/CodeSniffer"
+      ]
+    }
+  }
+  
