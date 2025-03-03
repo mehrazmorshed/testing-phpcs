@@ -32,3 +32,5 @@ class Greeter
 // Example usage
 $greeter = new Greeter();
 echo $greeter->greet('World');
+
+// test
