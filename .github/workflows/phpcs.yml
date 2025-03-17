@@ -16,4 +16,4 @@ jobs:
           with:
             phpcs_bin_path: './vendor/bin/phpcs'
             enable_warnings: true
-            args: 'inc/'
+            args: './inc/'
