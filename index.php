@@ -34,3 +34,4 @@ $greeter = new Greeter();
 echo $greeter->greet('World');
 
 // test
+// note
